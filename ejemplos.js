@@ -122,5 +122,38 @@ console.log(amigos);
 // cambiar posicion en consola:
 // amigos[2] = "Carlos"   cambiará la posicion de Alex por Carlos.
 
+/*CONTROL DE FLUJO
+IF (si)
+ELSE-IF  (sino si)
+ELSE (sino)    
 
+si(condición es verdadera){
+    //ejecuta esta parte
+}
+sino, si(esta condición es verdadera){
+    //ejecuta esta parte
+}
+sino{
+    //ejecuta esta parte
+}                                         */
+
+/* var semaforo = "naranja";
+
+if(semaforo === "verde")
+    alert("el semaforo está siga");
+else if(semaforo === "rojo")
+    alert("el semaforo está en alto");
+else if(semaforo === "amarillo")
+    alert("el semaforo está en amarillo");  
+else
+    alert("el semaforo está apagado");
+*/
+
+// Number convierte la información ingresada a número
+var tuedad = Number(prompt("digite su edad: "));
+
+if(tuedad >= 18)
+    alert("tu eres mayor de edad");
+else
+    alert("tu eres menor de edad");
 
