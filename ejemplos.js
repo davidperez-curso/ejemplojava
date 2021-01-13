@@ -68,7 +68,59 @@ console.log(typeof numero1); // number
 console.log(typeof cadena); // string
 console.log(typeof true); // boolean
  
+/*OPERADORES DE COMPARACIÓN: retornan valores booleanos (true o false)
+Exactamente igual que: ===
+Distinto que: !==
+Menor que: <
+Mayor que: >
+Menor o igual que: <=
+Mayor o igual que: >=                         */
 
+console.log(numero1 === numero2); // false
+console.log(numero1 !== numero2); // true
+console.log(numero1 < numero2); // false
+console.log(numero1 > numero2); // true
+console.log(numero1 <= numero2); // false
+console.log(10 >= 10); // true
+
+/* OPERADORES LÓGICOS: Permiten realizar comparaciones más complejas
+    AND ( && ): Devuelve true sólo cuando ambos valores son true
+    OR ( || ): Devuelve true si cualquiera de los valores es true
+    NOT ( ! ): Invierte el valor. true produce false y false true
+*/
+console.log("OPERADORES LÓGICOS");
+
+console.log("OPERADOR &&");
+console.log(false && true); // false
+console.log(false && false); // false
+console.log(true && true); // true
+console.log( (numero1 < numero2) && (numero1 > numero2)); // false
+
+console.log("OPERADOR ||");
+console.log(false || true); // true
+console.log(false || false); // false
+console.log(true || true); // true
+console.log( (numero1 < numero2) || (numero1 > numero2)); // true
+
+console.log("OPERADOR !");
+console.log(!(numero1 > numero2)); // false
+console.log(!(numero2 > numero1)); // true
+
+/* OPERADOR TERNARIO: Opera sobre tres valores, cuando es true
+se elige el valor medio, cuando es false se elige el de la derecha */
+console.log("OPERADOR TERNARIO");
+console.log(true ? 2 : 1); // 2
+console.log(false ? 2 : 1); // 1
+
+// ARRAY - ARREGLOS //
+//              pos.0     pos.1   pos.2
+var amigos = ["Carlos", "Cesar", "Alex"]; // las posiciones parten en 0
+console.log(amigos);
+
+// acceder en consola:
+// amigos[2]    va a mostrar la segunda posición, Alex.
+// cambiar posicion en consola:
+// amigos[2] = "Carlos"   cambiará la posicion de Alex por Carlos.
 
 
 
